@@ -8,7 +8,7 @@ This project demonstrates how to containerize a full Three-Tier MERN (MongoDB, E
 
 **MongoDB:** A MongoDB instance running version 4.2.0, with data persisted using Docker volumes. This service is crucial for storing the application's data and is connected through the express-mongo network.
 
-### Commands to Run :
+## Commands to Run :
 
 1.Build and run the application
     
@@ -26,6 +26,6 @@ This project demonstrates how to containerize a full Three-Tier MERN (MongoDB, E
 
     docker-compose down
 
-### Expected Result :
+## Expected Result :
 
 ![image](https://github.com/user-attachments/assets/7703a5e0-e26e-4fae-bd4b-252e7b3274aa)
