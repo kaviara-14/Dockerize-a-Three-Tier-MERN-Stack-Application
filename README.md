@@ -1,6 +1,6 @@
 # Dockerize a Three Tier MERN Stack Application
 
-This project demonstrates how to containerize a full Three-Tier MERN (MongoDB, Express, React, Node.js) stack application using Docker Compose.Docker Compose is a tool for defining and running multi-container Docker applications. The setup includes three primary services:
+This project demonstrates how to containerize a full Three-Tier MERN (MongoDB, Express, React, Node.js) stack application using Docker Compose.Docker Compose is a tool for defining and running multi-container Docker applications. The setup includes three primary services(Docker Images):
 
 **Frontend:** A React.js application running in a development environment. It listens on port 3000 and automatically reloads changes thanks to volume mounting. It is connected to the backend via the react-express network.
 
